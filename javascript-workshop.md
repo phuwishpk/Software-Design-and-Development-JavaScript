@@ -120,6 +120,7 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 
 ```
 [รูปผลการทดลองที่ 1]
+
 ![screenshot-1740483937489](https://github.com/user-attachments/assets/2285c141-59bf-420d-a674-5c6e2fc4dcbf)
 
 ## การทดลองที่ 2: พื้นฐาน JavaScript
@@ -207,6 +208,7 @@ let person = {
 </html>
 ```
 [รูปผลการทดลองที่ 2.1]
+
 ![Screenshot 2025-02-25 184913](https://github.com/user-attachments/assets/8e617d94-231e-4f34-bdf4-fe5af3e76c18)
 
 
@@ -321,6 +323,7 @@ number /= 2;          // เท่ากับ number = number / 2
 
 ```
 [รูปผลการทดลองที่ 2.2]
+
 ![Screenshot 2025-02-25 185210](https://github.com/user-attachments/assets/079d7c11-d8ea-4bcd-b65c-9945d2320b95)
 
 
@@ -538,6 +541,7 @@ for (let i = 1; i <= 5; i++) {
 
 ```
 [รูปผลการทดลองที่ 2.3]
+
 ![Screenshot 2025-02-25 185939](https://github.com/user-attachments/assets/3e3ef696-dc19-4c05-8a29-6b33d60730bf)
 ![Screenshot 2025-02-25 185955](https://github.com/user-attachments/assets/c64c94cc-85c7-4d1b-ac59-e060df0de846)
 ![Screenshot 2025-02-25 190008](https://github.com/user-attachments/assets/6883844e-3857-42ec-8ef1-dd820a75a634)
@@ -733,6 +737,7 @@ process(function() {
 </html>
 ```
 [รูปผลการทดลองที่ 2.4.1]
+
 ![Screenshot 2025-02-25 191853](https://github.com/user-attachments/assets/883d1183-98d5-42e6-972c-4dc0b195aff9)
 ![Screenshot 2025-02-25 191827](https://github.com/user-attachments/assets/be5cbac8-5c23-4430-9eec-e92e2b3cd653)
 ![Screenshot 2025-02-25 191742](https://github.com/user-attachments/assets/4de73848-f4b8-43aa-b5ca-a3b98f051ea0)
@@ -832,6 +837,7 @@ console.log("เลขคู่:", evenNumbers); // [2, 4]
 </html>
 ```
 [รูปผลการทดลองที่ 2.4.2]
+
 ![Screenshot 2025-02-25 193727](https://github.com/user-attachments/assets/42971975-910d-42f8-a066-589e06aaf5f7)
 
 
@@ -944,6 +950,7 @@ console.log("เลขคู่:", evenNumbers); // [2, 4]
 
 ```
 [รูปผลการทดลองที่ 3.1]
+
 ![Screenshot 2025-02-25 194032](https://github.com/user-attachments/assets/98d57ce2-1d43-4ce3-b33b-42c9bd9e3a77)
 
 
@@ -1163,6 +1170,7 @@ console.log("เลขคู่:", evenNumbers); // [2, 4]
 
 ```
 [รูปผลการทดลองที่ 3.2.2]
+
 ![Screenshot 2025-02-25 194032](https://github.com/user-attachments/assets/eea9c70e-ff01-4cbb-ab21-2694e5f56fa8)
 
 
@@ -1488,6 +1496,7 @@ document.getElementById('roomtype').addEventListener('change', function() {
 
 ```
 [รูปผลการทดลองที่ 3.2.3]
+
 ![Screenshot 2025-02-25 195919](https://github.com/user-attachments/assets/39138272-2395-459c-b37d-d8060adbeb43)
 ![Screenshot 2025-02-25 200035](https://github.com/user-attachments/assets/e87040ac-3f5c-4c09-8167-999d748aae8e)
 
