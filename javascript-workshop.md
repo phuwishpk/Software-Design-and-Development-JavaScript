@@ -34,34 +34,45 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>ทดลอง JavaScript</title>
+    <title>แสดงข้อมูลจากปุ่ม</title>
+    <script>
+        // Internal JavaScript: แสดงวันที่ปัจจุบัน
+        function showDate() {
+            let today = new Date();
+            alert("วันที่ปัจจุบัน: " + today.toLocaleDateString());
+        }
+
+        function showTime() {
+            let now = new Date();
+            alert("เวลาปัจจุบัน: " + now.toLocaleTimeString());
+        }
+
+        function showText() {
+            let inputText = document.getElementById('textBox').value;
+            document.getElementById('output').innerText = "ข้อความที่คุณกรอก: " + inputText;
+        }
+    </script>
 </head>
 <body>
-    <!-- Inline JavaScript -->
-    <button onclick="alert('คลิกปุ่มที่ 1!')">ปุ่มที่ 1</button>
-
-    <!-- ทดสอบ Internal JavaScript -->
-    <button id="btn2">ปุ่มที่ 2</button>
-
-    <!-- ทดสอบ External JavaScript -->
-    <button id="btn3" onclick="hello3();">ปุ่มที่ 3</button>
-
-    <!-- Internal JavaScript -->
-    <script>
-        document.getElementById('btn2').onclick = function() {
-            alert('คลิกปุ่มที่ 2!');
-        };
-    </script>
-
-    <!-- External JavaScript -->
-  <!-- ต้องสร้างไฟล์ script.js มีโค้ดโปรแกรมในไฟล์ดังนี้
-   function hello3(){
-    alert('คลิกปุ่มที่ 3!');
-    }
- -->
-    <script src="script.js"></script>
+    <!-- ปุ่มที่ 1: Inline JavaScript แสดงชื่อนักศึกษา -->
+    <button onclick="alert('ชื่อนักศึกษา: สมชาย ตัวอย่าง')">ปุ่มที่ 1</button>
+    
+    <!-- ปุ่มที่ 2: Internal JavaScript แสดงวันที่ปัจจุบัน -->
+    <button onclick="showDate()">ปุ่มที่ 2</button>
+    
+    <!-- ปุ่มที่ 3: External JavaScript แสดงเวลาปัจจุบัน -->
+    <button onclick="showTime()">ปุ่มที่ 3</button>
+    
+    <br><br>
+    
+    <!-- กล่องข้อความและปุ่มสำหรับแสดงข้อความ -->
+    <input type="text" id="textBox" placeholder="พิมพ์ข้อความที่นี่">
+    <button onclick="showText()">แสดงข้อความ</button>
+    
+    <p id="output"></p>
 </body>
 </html>
+
 ```
 
 ### แบบฝึกปฏิบัติที่ 1: การใช้งาน JavaScript เบื้องต้น
